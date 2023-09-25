@@ -6,6 +6,9 @@ import "./App.css";
 // import LiveFilter from "./components/UseEffect/LiveFilter";
 // import UpdateFetch from "./components/UseEffect/UpdateFetch";
 import Ref from "./components/UseRef/Ref";
+import InputFocus from "./components/UseRef/InputFocus";
+import VideoPlay from "./components/UseRef/VideoPlay";
+import StopWatch from "./components/UseRef/StopWatch";
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
         <InputValidate />
         <LiveFilter />
         <UpdateFetch/> */}
-        <Ref />
+        {/* <Ref /> */}
+        {/* <InputFocus/> */}
+        {/* <VideoPlay/> */}
+        <StopWatch/>
       </header>
     </div>
   );
