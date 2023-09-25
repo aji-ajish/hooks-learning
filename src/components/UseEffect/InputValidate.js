@@ -5,7 +5,7 @@ export default function InputValidate() {
   const [isValid, setIsValid] = useState(false);
 
   const inputHandler = (e) => {
-    setInput(e.target.input);
+    setInput(e.target.value);
   };
   useEffect(() => {
     if (input.length < 5 || /\d/.test(input)) {

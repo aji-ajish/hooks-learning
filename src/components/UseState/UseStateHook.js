@@ -45,7 +45,7 @@ export default function UseStateHook() {
         <input
           type="text"
           value={userDetails.Education}
-          onChange={(e) => SetUserdetails({ ...userDetails, Education: e.target.value })} npm st
+          onChange={(e) => SetUserdetails({ ...userDetails, Education: e.target.value })}
         />
       </div>
     </>
