@@ -5,10 +5,12 @@ import "./App.css";
 // import InputValidate from './components/UseEffect/InputValidate';
 // import LiveFilter from "./components/UseEffect/LiveFilter";
 // import UpdateFetch from "./components/UseEffect/UpdateFetch";
-import Ref from "./components/UseRef/Ref";
-import InputFocus from "./components/UseRef/InputFocus";
-import VideoPlay from "./components/UseRef/VideoPlay";
-import StopWatch from "./components/UseRef/StopWatch";
+// import Ref from "./components/UseRef/Ref";
+// import InputFocus from "./components/UseRef/InputFocus";
+// import VideoPlay from "./components/UseRef/VideoPlay";
+// import StopWatch from "./components/UseRef/StopWatch";
+// import StateManage from "./components/UseReducer/StateManage";
+// import MultipleState from "./components/UseReducer/MultipleState";
 
 function App() {
   return (
@@ -20,10 +22,14 @@ function App() {
         <InputValidate />
         <LiveFilter />
         <UpdateFetch/> */}
-        {/* <Ref /> */}
-        {/* <InputFocus/> */}
-        {/* <VideoPlay/> */}
-        <StopWatch/>
+
+        {/* <Ref /> 
+         <InputFocus/> 
+         <VideoPlay/> 
+        <StopWatch/> */}
+
+        {/* <StateManage/> 
+        <MultipleState/>*/}
       </header>
     </div>
   );
