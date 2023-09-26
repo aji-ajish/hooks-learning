@@ -11,6 +11,8 @@ import "./App.css";
 // import StopWatch from "./components/UseRef/StopWatch";
 // import StateManage from "./components/UseReducer/StateManage";
 // import MultipleState from "./components/UseReducer/MultipleState";
+// import PropsDrilling from "./components/UseContext/Props/PropsDrilling";
+// import UseContextStateManage from "./components/UseContext/UseContext/UseContextStateManage";
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
 
         {/* <StateManage/> 
         <MultipleState/>*/}
+
+        {/* <PropsDrilling/>
+        <UseContextStateManage/> */}
       </header>
     </div>
   );
