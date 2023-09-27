@@ -13,6 +13,7 @@ import "./App.css";
 // import MultipleState from "./components/UseReducer/MultipleState";
 // import PropsDrilling from "./components/UseContext/Props/PropsDrilling";
 // import UseContextStateManage from "./components/UseContext/UseContext/UseContextStateManage";
+import UseMemoCase from "./components/UseMemo/UseMemoCase";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
 
         {/* <PropsDrilling/>
         <UseContextStateManage/> */}
+        <UseMemoCase/>
       </header>
     </div>
   );
