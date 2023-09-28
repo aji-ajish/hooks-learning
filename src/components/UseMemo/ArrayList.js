@@ -4,10 +4,10 @@ export default function ArrayList(props) {
   return (
     <div>
       <div>Array List</div>
-        {props.todos.lenght ? (
+        {props.todos.length ? (
           <div>
             {props.todos.map((todo, index) => {
-              return <p key={index}>todo</p>;
+              return <p key={index}>{todo}</p>; // Fix here, wrap todo in {}
             })}
           </div>
         ) : (
