@@ -13,14 +13,15 @@ import "./App.css";
 // import MultipleState from "./components/UseReducer/MultipleState";
 // import PropsDrilling from "./components/UseContext/Props/PropsDrilling";
 // import UseContextStateManage from "./components/UseContext/UseContext/UseContextStateManage";
-import UseMemoCase from "./components/UseMemo/UseMemoCase";
+// import UseMemoCase from "./components/UseMemo/UseMemoCase";
+import UseCallbackCase from "./components/UseCallback/UseCallbackCase";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <UseStateHook/>
-        <UseEffectHook1/>
+        {/* <UseStateHook/>*/}
+         {/*<UseEffectHook1/>
         <FetchApi />
         <InputValidate />
         <LiveFilter />
@@ -36,7 +37,8 @@ function App() {
 
         {/* <PropsDrilling/>
         <UseContextStateManage/> */}
-        <UseMemoCase/>
+        {/* <UseMemoCase/> */}
+        <UseCallbackCase/>
       </header>
     </div>
   );
